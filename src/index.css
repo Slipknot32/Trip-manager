@@ -1,0 +1,11 @@
+#root {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.map { grid-area: 1 / 1 / 3 / 5; }
+.datepicker { grid-area: 1 / 5 / 2 / 6; }
+.google-calendar { grid-area: 2 / 5 / 3 / 6; } 
